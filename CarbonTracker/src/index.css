@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+*{
+    scroll-behavior: smooth;
+}
+
+.section-title::after {
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: #3498db;
+    bottom: -10px;
+    left: 25%;
+}
